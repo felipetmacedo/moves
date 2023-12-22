@@ -1,11 +1,19 @@
-import React from "react";
+import React, { CSSProperties } from "react";
 import { Link } from "react-scroll";
-import { HomeContainer } from "./style";
 import { ResponsiveAppBar, HeroSection, FooterSection, AboutSection, ServiceSection, PersonSection, ContactSection } from "../components";
 
 export default function Home() {
+  const containerStyle: CSSProperties = {
+    width: '100%',
+    height: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'column'
+  };
+
   return (
-    <HomeContainer>
+    <div style={containerStyle}>
       <ResponsiveAppBar />
       <HeroSection id="home"/>
       <AboutSection id="sobre"/>
@@ -13,6 +21,6 @@ export default function Home() {
       <PersonSection id="time" />
       <ContactSection id="contato" />
       <FooterSection linkedin="https://www.linkedin.com/company/movesbrasil/" facebook="https://www.facebook.com/movesbrasill" instagram="https://instagram.com/movesbrasil?igshid=MzMyNGUyNmU2YQ=="/>
-    </HomeContainer>
+    </div>
   );
 }
