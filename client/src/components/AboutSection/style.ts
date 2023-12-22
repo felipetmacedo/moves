@@ -29,6 +29,7 @@ export const ImageContainer = styled.div`
 
   @media (max-width: 1100px) {
     margin-bottom: 30px;
+    margin-right: 0px;
   }
 `;
 
@@ -37,8 +38,8 @@ export const SobreImage = styled(Image)`
   height: 372px;
 
     @media (max-width: 1100px) {
-        width: 360px; /* Make the image take up the whole width on smaller screens */
-        height: 240px;
+        width: 320px; /* Make the image take up the whole width on smaller screens */
+        height: 200px;
     }
 `;
 

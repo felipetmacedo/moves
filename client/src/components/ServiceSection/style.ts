@@ -8,8 +8,12 @@ export const ServiceSectionContainer = styled.section`
   justify-content: center;
   width: auto;
   height: auto;
-  padding: 100px;
+  padding: 50px;
   flex-wrap: wrap;
+
+  @media (max-width: 1000px) {
+    padding: 0px;
+  }
 `;
 
 export const ServicesContainer = styled.div`

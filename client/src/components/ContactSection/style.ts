@@ -52,6 +52,7 @@ export const TextContainer = styled.div`
     margin-left: 0px;
     text-align: center;
     padding: 8px;
+    margin-left: 0px;
   }
 `;
 

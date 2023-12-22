@@ -9,7 +9,6 @@ export const Footer = styled.div`
   align-items: center;
   flex-direction: column;
   text-align: center;
-  z-index: 999;
 `;
 
 export const IconContainer = styled.div`

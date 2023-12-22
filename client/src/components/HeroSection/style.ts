@@ -14,6 +14,10 @@ export const HeroSectionContainer = styled.section`
   padding: 30px;
   /* Add margin/padding to create space above this section */
   /* For example, you can add padding-top to the body or a wrapper div */
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
 `;
 
 
