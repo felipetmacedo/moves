@@ -14,10 +14,10 @@ function App({ Component, pageProps }: AppProps) {
           <title>Move's</title>
           <link
             rel="shortcut icon"
-            href="/img/icon-192.png"
+            href="/img/icon-2.png"
             type="image/x-icon"
           />
-          <link rel="apple-touch-icon" href="/img/icon-512.png" />
+          <link rel="apple-touch-icon" href="/img/icon-2.png" />
           <link rel="manifest" href="/manifest.json" />
           <meta name="theme-color" content="#06092B" />S
           <meta name="description" content="Move's Landing Page" />
