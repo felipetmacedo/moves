@@ -60,11 +60,14 @@ export default function ContactSection({ id }: ContactSectionProps) {
     fontWeight: 'bold',
   };
 
-  const formStyles = {
+  type FlexDirection = 'row' | 'column';
+
+  const formStyles: { display: string; width: string; flexDirection: FlexDirection } = {
     display: 'flex',
-    flexDirection: 'column',
     width: '100%',
+    flexDirection: 'column',
   };
+
 
   const formStylesMediumScreen = {
     width: '100%',
