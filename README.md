@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/citi-onboarding/pta-boilerplate">
-    <img src="./assets/moves.jpg" alt="Logo" width="180px">
+    <img src="./assets/moves.png" alt="Logo" width="180px">
   </a>
 
   <h3 align="center">Move's</h3>
@@ -12,7 +12,7 @@
     <br /></a>
     <br />
     <br />
-    <p>Esse projeto foi criado para a empresa Move's, é uma landing page sobre a empresa que trabalha com turismo e acessibilidade. </p>
+    <p align="center">Esse projeto foi criado para a empresa Move's, é uma landing page sobre a empresa que trabalha com turismo e acessibilidade. </p>
     <a href="https://github.com/citi-onboarding/pta-boilerplate/issues">Report Bug</a>
   </p>
 </p>
