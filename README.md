@@ -2,14 +2,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/citi-onboarding/pta-boilerplate">
-    <img src="./assets/logoCITi.png" alt="Logo" width="180px">
+    <img src="./assets/moves.jpg" alt="Logo" width="180px">
   </a>
 
   <h3 align="center">PTA</h3>
 
   <p align="center">
-  Esse boilerplate foi criado durante o processo seletivo de 2022 do CITi e atualizado em 2023.2 com o intuito de aproximar as pessoas aspirantes à realidade
-  dentro do CITi. O boilerplate será usado durante a última etapa do processo seletivo, a qual tem o objetivo de capacitar tecnincamente as pessoas que entrarão no CITi.
+  Esse projeto foi criado para a empresa Move's, é uma landing page sobre a empresa que trabalha com turismo e acessibilidade.
     <br />
     <a href="https://github.com/citi-onboarding/pta-boilerplate"><strong>Explore the docs »</strong></a>
     <br />
