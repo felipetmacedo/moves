@@ -9,12 +9,9 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
 import { alpha } from "@mui/material";
-import { Logo } from "./style";
 import { LogoMoves } from "assets";
 import Image from "next/image";
-import media from "styled-media-query";
 import { Link } from "react-scroll";
 
 const pages = ["home", "sobre", "serviços", "time", "contato"];
@@ -34,7 +31,7 @@ function ResponsiveAppBar() {
 
 
   return (
-    <AppBar sx={{ backgroundColor: alpha("#6EB6B4", 0.5) }}>
+    <AppBar sx={{ backgroundColor: alpha("#6EB6B4", 0.9) }}>
       <Container maxWidth="xl">
         <Toolbar
           disableGutters
