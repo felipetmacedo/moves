@@ -11,6 +11,10 @@ export const PersonSectionContainer = styled.section`
   width: 100%; /* Ensure minimum width is 100% of the viewport */
   min-height: 113vh; /* Set minimum height to 100% of the viewport height */
   padding: 100px;
+
+  @media (max-width: 1000px) {
+    padding: 40px;
+  }
 `;
 
 export const PersonContainer = styled.div`
@@ -28,6 +32,11 @@ export const Title = styled.h2`
   font-weight: 700;
   color: #004a8c;
   margin-bottom: 20px;
+
+  @media (max-width: 1000px) {
+    margin-bottom: 10px;
+    margin-top: 70px;
+  }
 `;
 
 export const Text = styled.p`

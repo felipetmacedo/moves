@@ -17,6 +17,7 @@ export const HeroSectionContainer = styled.section`
 
   @media (max-width: 1000px) {
     flex-direction: column;
+    padding: 20px;
   }
 `;
 
@@ -57,10 +58,18 @@ export const Title = styled.h2`
   font-weight: 700;
   color: #004a8c;
   margin-bottom: 20px;
+
+  @media (max-width: 1100px) {
+    font-size: 36px;
+  }
 `;
 
 export const Text = styled.p`
   font-size: 18px;
   font-weight: bold;
   color: #004a8c;
+
+  @media (max-width: 1100px) {
+    font-size: 16px;
+  }
 `;
