@@ -5,18 +5,15 @@
     <img src="./assets/moves.jpg" alt="Logo" width="180px">
   </a>
 
-  <h3 align="center">PTA</h3>
+  <h3 align="center">Move's</h3>
 
   <p align="center">
-  Esse projeto foi criado para a empresa Move's, é uma landing page sobre a empresa que trabalha com turismo e acessibilidade.
+  A Move’s quer espalhar o turismo acessível para todos. Uma plataforma de turismo inclusivo, que estará em breve em sua Playstore, e fornece informações de acessibilidade para pessoas com mobilidade reduzida em atrativos e estabelecimentos turísticos.
+    <br /></a>
     <br />
-    <a href="https://github.com/citi-onboarding/pta-boilerplate"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    ·
+    <p>Esse projeto foi criado para a empresa Move's, é uma landing page sobre a empresa que trabalha com turismo e acessibilidade. </p>
     <a href="https://github.com/citi-onboarding/pta-boilerplate/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/citi-onboarding/pta-boilerplate/issues">Request Feature</a>
   </p>
 </p>
 
