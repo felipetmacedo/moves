@@ -8,7 +8,11 @@ export const ServiceContainer = styled.div`
     justify-content: center;
     text-align: center;
     width: 364px;
-    height: 335px
+    height: 335px;
+
+    @media (max-width: 854px) {
+        width: 100%;
+    }
 `;
 
 export const ServiceImage = styled(Image)`
@@ -21,4 +25,8 @@ export const ServiceText = styled.p`
     font-size: 16px;
     text-align: center;
     color: #004a8c;
+
+    @media (max-width: 854px) {
+        font-size: 14px;
+    }
 `;

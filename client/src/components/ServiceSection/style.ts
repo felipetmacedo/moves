@@ -12,7 +12,7 @@ export const ServiceSectionContainer = styled.section`
   flex-wrap: wrap;
 
   @media (max-width: 1000px) {
-    padding: 0px;
+    padding: 40px;
   }
 `;
 
@@ -36,4 +36,5 @@ export const Text = styled.p`
   font-size: 16px;
   text-align: center;
   color: #004a8c;
+  
 `;

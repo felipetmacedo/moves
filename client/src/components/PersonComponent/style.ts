@@ -10,6 +10,10 @@ export const PersonContainer = styled.div`
     width: 364px;
     height: 335px;
     margin-bottom: 100px;
+
+    @media (max-width: 854px) {
+        width: 100%;
+    }
 `;
 export const PersonImage = styled(Image)`
     width: 223px;
@@ -29,4 +33,8 @@ export const PersonText = styled.p`
     text-align: center;
     color: #004a8c;
     margin-top: 10px;
+
+    @media (max-width: 854px) {
+        font-size: 14px;
+    }
 `;
