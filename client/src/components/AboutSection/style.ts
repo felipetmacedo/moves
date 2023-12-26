@@ -15,7 +15,9 @@ export const AboutSectionContainer = styled.section`
   padding: 30px;
   @media (max-width: 1000px) {
     flex-direction: column;
-    margin-top: -100px;
+    margin-top: -200px;
+    padding-top: 140px;
+    padding-bottom: 40px;
   }
 `;
 
@@ -27,9 +29,10 @@ export const ImageContainer = styled.div`
   justify-content: center;
   margin-right: 30px;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1000px) {
     margin-bottom: 30px;
     margin-right: 0px;
+    margin-top: 20px;
   }
 `;
 
