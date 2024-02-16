@@ -1,6 +1,6 @@
 import { PersonSectionContainer, PersonContainer, Title, Text } from './style';
 import PersonComponent from '../PersonComponent/index';
-import { PammelaAvatar, MarianaAvatar, MatheusAvatar } from 'assets'; // Assuming you have these images imported;
+import { PammelaAvatar, MatheusAvatar } from 'assets'; // Assuming you have these images imported;
 
 
 type PersonSectionProps = {
@@ -15,12 +15,6 @@ export default function PersonSection({ id }: PersonSectionProps) {
             name: 'Pâmmela Santos',
             role: 'Fundadora e Gerente de Projeto',
             text: '“A Move\'s é a solução para trazer inclusão através da informação. Me tornei uma pessoa com mobilidade reduzida temporária, o que me abriu os olhos para a importância da acessibilidade. Apaixonada por viagens, acredito que o turismo inclusivo pode mitigar as dores das PMR.”',
-        },
-        {
-            image: MarianaAvatar,
-            name: 'Mariana Mendonça',
-            role: 'Head de Marketing e Experiência',
-            text: '“Não queremos fronteiras e nem barreiras. Acredito no poder de mudança que a Move’s tem e no profundo impacto que a nossa solução trará na qualidade vida dos usuários. A gente chegou para fazer e acontecer! Inclusão, diversidade e turismo para todos.”',
         },
         {
             image: MatheusAvatar,
