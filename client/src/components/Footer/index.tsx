@@ -27,7 +27,7 @@ export default function FooterSection({ facebook, linkedin, instagram }: UserCar
                 <Title>MOVE'S BRASIL - TODOS OS DIREITOS RESERVADOS.</Title>
                 <Text>
                     Made with <strong>&lt; &#x0002F; &gt;</strong> and{" "}
-                    <strong>&hearts;</strong> by <Link href="https://www.linkedin.com/in/felipe-torres-334642236/">Felipe Torres</Link>
+                    <strong>&hearts;</strong> by <Link href="https://www.linkedin.com/in/felipe-torres-334642236/"  style={{ color: 'white' }}>Felipe Torres</Link>
                 </Text>
             </TextContainer>
         </Footer>
