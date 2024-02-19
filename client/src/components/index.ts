@@ -6,4 +6,4 @@ import PersonSection from "./PersonSection";
 import ContactSection from "./ContactSection";
 import FooterSection from "./Footer";
 
-export {ResponsiveAppBar, AboutSection, HeroSection, ServiceSection, PersonSection,ContactSection, FooterSection,};
+export {ResponsiveAppBar, AboutSection, HeroSection, ServiceSection, PersonSection,ContactSection, FooterSection};

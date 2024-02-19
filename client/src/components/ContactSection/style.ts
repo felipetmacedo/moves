@@ -68,5 +68,5 @@ export const ParagraphContainer = styled.p`
   font-weight: 400;
   color: #004a8c;
   margin-bottom: 20px;
-  max-width: 700px;
+  max-width: 600px;
 `;
