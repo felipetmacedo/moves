@@ -13,7 +13,6 @@
     <br />
     <br />
     <p align="center">Esse projeto foi criado para a empresa Move's, é uma landing page sobre a empresa que trabalha com turismo e acessibilidade. </p>
-    <a href="https://github.com/citi-onboarding/pta-boilerplate/issues">Report Bug</a>
   </p>
 </p>
 
