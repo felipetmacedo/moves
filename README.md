@@ -16,8 +16,6 @@
   </p>
 </p>
 
-## Client
-
 <br/>
 
 ## How To Install Client
