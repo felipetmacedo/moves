@@ -1,5 +1,5 @@
+"use client";
 import React, { CSSProperties } from "react";
-import { Link } from "react-scroll";
 import {
   ResponsiveAppBar,
   HeroSection,
