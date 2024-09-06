@@ -7,19 +7,21 @@ import {
   TextContainer,
   Title,
 } from "./style";
-import { FacebookIcon, InstagramIcon, LinkedinIcon } from "assets"; // Assuming you have these icons imported
+import { FacebookIcon, InstagramIcon, LinkedinIcon, PlayStoreIcon } from "assets"; // Assuming you have these icons imported
 import Link from "next/link";
 
 interface UserCardProps {
   facebook: string;
   linkedin: string;
   instagram: string;
+  playStore: string;
 }
 
 export default function FooterSection({
   facebook,
   linkedin,
   instagram,
+  playStore,
 }: UserCardProps) {
   return (
     <Footer>
@@ -47,6 +49,9 @@ export default function FooterSection({
           </Link>
         </Text>
       </TextContainer>
+      <Link href={playStore}>
+        <IconImage src={PlayStoreIcon} alt="Play Store" />
+      </Link>
     </Footer>
   );
 }

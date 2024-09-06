@@ -32,6 +32,7 @@ export default function Home() {
         linkedin="https://www.linkedin.com/company/movesbrasil/"
         facebook="https://www.facebook.com/movesbrasill"
         instagram="https://instagram.com/movesbrasil?igshid=MzMyNGUyNmU2YQ=="
+        playStore="https://play.google.com/store/apps/details?id=com.movesbrasil"
       />
     </div>
   );

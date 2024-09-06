@@ -4,7 +4,7 @@ import Image from 'next/image'; // Import the next/image component
 export const Footer = styled.div`
   display: flex;
   width: 100%;
-  height: 243px;
+  height: 290px;
   background-color: #004A8C;
   align-items: center;
   flex-direction: column;
@@ -12,7 +12,6 @@ export const Footer = styled.div`
 `;
 
 export const IconContainer = styled.div`
-
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -36,7 +35,7 @@ export const Text = styled.p`
     font-size: 14px;
     margin-top: 10px;
     color: #ffffff;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 `;
 
 export const IconImage = styled(Image)`

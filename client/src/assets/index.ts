@@ -11,6 +11,7 @@ import ContactImg from "./contact-img.svg";
 import FacebookIcon from "./facebook.svg";
 import InstagramIcon from "./instagram.svg";
 import LinkedinIcon from "./linkedin.svg";
+import PlayStoreIcon from "./playstore.svg";
 
 export { 
     LogoMoves, 
@@ -25,5 +26,6 @@ export {
     ContactImg,
     FacebookIcon, 
     InstagramIcon, 
-    LinkedinIcon
+    LinkedinIcon,
+    PlayStoreIcon
 };
